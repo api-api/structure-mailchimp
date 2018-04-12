@@ -1,0 +1,43 @@
+{
+  "name": "api-api/structure-mailchimp",
+  "description": "Structure implementation for Mailchimp.",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "api-api",
+    "structure",
+    "structure-mailchimp"
+  ],
+  "homepage": "http://awesome.ug",
+  "authors": [
+    {
+      "name": "Sven Wagener",
+      "email": "sven@awesome.ug",
+      "homepage": "http://awesome.ug",
+      "role": "Head of Development"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/api-api/structure-mailchimp/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "autoload": {
+    "psr-4": {
+      "APIAPI\\Structure_Mailchimp\\": "src/Structure_Mailchimp/"
+    },
+    "files": [
+      "src/structure-mailchimp.php"
+    ]
+  },
+  "require": {
+    "api-api/core": "dev-master",
+    "api-api/authenticator-basic": "dev-master",
+    "api-api/transporter-curl": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
