@@ -23,7 +23,7 @@ class Mailchimp_TestCase extends Structure_TestCase {
 					'password'   => $api_key
 				),
 				'params' =>array(
-					'datacenter'    => 'us18'
+					'datacenter'    => $datacenter
 				)
 			)
 		);
