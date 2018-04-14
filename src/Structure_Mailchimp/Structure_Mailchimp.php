@@ -40,7 +40,7 @@ if ( ! class_exists( 'APIAPI\Structure_Mailchimp\Structure_Mailchimp' ) ) {
 
 			$this->authenticator = 'basic';
 			$this->authentication_data_defaults = array(
-				'placeholder_name' => 'datacenter'
+				'username' => 'APIAPI'
 			);
 
 			$this->routes['/lists'] = array(

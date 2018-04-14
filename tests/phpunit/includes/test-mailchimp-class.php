@@ -20,9 +20,10 @@ class Mailchimp_TestCase extends Structure_TestCase {
 			'transporter'            => 'curl',
 			'mailchimp'                => array(
 				'authentication_data' => array(
-					'account'   => $datacenter,
-					'username'   => 'APIAPI',
 					'password'   => $api_key
+				),
+				'params' =>array(
+					'datacenter'    => 'us18'
 				)
 			)
 		);
